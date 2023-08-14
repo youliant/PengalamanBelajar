@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+ 
+   <head>
+        <title>Form dan Tabel</title>
+   </head>
+
+<body bgcolor="cyan"> 
+
+
+<form action="prosessForm.php" method="GET">
+<!-- letakkan field di sini -->
+<fieldset>
+<legend>
+<h1>Formulir Pendaftaran Anggota PDIP</h1></legend>
+
+<table>
+ 
+   <tr>
+        
+     <td>Nama Lengkap</td>
+       
+     <td>:</td>
+        
+     <td><input type="name" name="nama"  required/><br /></td>
+ 
+     </tr>  
+
+   <tr>
+        
+     <td>Nomor Induk Kependudukan</td>
+       
+     <td>:</td>
+        
+     <td><input type="number" name="NIK"  required/><br /></td>
+ 
+     </tr> 
+
+   
+   <tr>
+    
+     <td>Tempat/Tanggal Lahir</td>
+     <td>:</td>
+       
+     <td><input type="name" name="tempatLahir"/> <input type="date" name="tanggal" /></td>
+ 
+     </tr>
+
+  
+  <tr>
+     
+     <td><label for="Provinsi">Asal Provinsi</label></td>
+    
+     <td>:</td
+     <td>
+         <select id="Provinsi">
+               <option value="Jakarta">Jakarta</option>
+               <option value="JawaBarat">JawaBarat</option>
+               <option value="JawaTimur">JawaTimur</option>
+               <option value="Banten">Banten</option>
+               <option value="JawaTengah">JawaTengah</option>
+               <option value="JawaTengah">Jakarta</option>
+
+     <tr>
+     
+     <td>Agama</td>
+    
+     <td>:</td>
+  
+     <td><select name="agama">
+       
+        <option value="islam"> Islam</option>
+   
+        <option value="kristen"> Kristen</option>
+        
+        <option value="katolik"> Katolik</option>
+        
+        <option value="budha"> Budha</option>
+           
+        <option value="hindu"> Hindu</option>
+     
+   </select></td>
+  
+   </tr>
+
+  
+ 
+   <tr>
+       
+   <td>Alamat</td>
+      
+   <td>:</td>
+    
+   <td><textarea name="komentar" rows="4" cols="50" ></textarea> </td>
+   
+   </tr>
+
+    
+   
+   <tr>
+       
+   <td>No Telp/Hp</td>
+        
+   <td>:</td>
+       
+   <td><input type="number" name="number" /></td>
+    
+   </tr>
+
+   
+  
+   <tr>
+        
+   <td>Jenis Kelamin</td>
+        
+   <td>:</td>
+       
+   <td><input type="radio" name="jenisKelamin" /> Pria
+ <input type="radio" name="jenisKelamin" /> Wanita</td>
+    
+   </tr>
+
+   
+ 
+  <tr>
+       
+  <td>Hobi</td>
+        
+  <td>:</td>
+        
+  <td><input type="checkbox" name="1" /> Membaca </input>
+           
+  <input type="checkbox" name="1" /> Menulis </input>
+            
+  <input type="checkbox" name="1" /> Olahraga </input></td>
+    
+  </tr>
+
+   
+
+  <tr>
+        
+  <td>Pas Foto</td>
+        
+  <td>:</td>
+        
+  <td><input type="file" name="foto" /></td>
+  
+  </tr>
+
+   
+ 
+  <tr>
+       
+  <td><input type="submit" name="submit" value="SUBMIT"/></td>
+     
+   <td></td>
+        
+   <td></td>
+    
+ </tr>
+
+
+</table>
+
+</fieldset>
+
+
+</form>
+
+
+</body>
+
+</html>
